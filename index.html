@@ -52,8 +52,12 @@
 		<main class="studio">
 			<section class="studio-hero">
 				<div class="container">								
-						<h1 class="studio-banner">Ефективні рішення для вашого бізнесу</h1>
-						<button type="button" class="hero-button">Замовити послугу</button>
+						<h1 class="studio-banner">
+							Ефективні рішення для вашого бізнесу
+						</h1>
+						<button type="button" class="hero-button" data-modal-open>
+							Замовити послугу
+						</button>				
 				</div>
 			</section>
 			<section class="studio-advantage section">
@@ -346,5 +350,13 @@
 				</div>
 			</div>
 		</footer>
+
+		<div class="backdrop" data-modal>
+			<div class="mod-window">
+				<button type="button" class="modal-close" data-modal-close>X</button>
+			</div>
+
+
+		<script src="./js/modal.js"></script>
 	</body>
 </html>

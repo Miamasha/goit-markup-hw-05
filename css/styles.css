@@ -156,8 +156,7 @@ position: relative;
 
 .link:hover,
 .link:focus {
-	color: var(--accent-color);
-	cursor: pointer;
+	color: var(--accent-color);	
 }
 
 .header-contacts {
@@ -181,8 +180,7 @@ position: relative;
 }
 .header-link:hover,
 .header-link:focus {
-	color: var(--accent-color);
-	cursor: pointer;
+	color: var(--accent-color);	
 }
 
 .header-icon {	
@@ -209,7 +207,7 @@ position: relative;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: #ffffff;
-	cursor: pointer;
+	
 }
 
 .address-mail a,
@@ -224,7 +222,7 @@ position: relative;
 .footer-address-list a:hover,
 .footer-address-list a:focus {
 	color: var(--accent-color);
-	cursor: pointer;
+	
 }
 
 
@@ -375,9 +373,28 @@ position: relative;
 
 .act-type {
 	margin-right: 30px;
+	width: 370px;
+	position: relative;
 }
 .act-type:last-child {
 	margin-right: 0;
+}
+
+.act-cover-text{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: rgba(47, 48, 58, 0.8);
+	padding-top: 27px;
+	padding-bottom: 27px;
+	width: 370px;
+	height: 70px;
+	transform: translateY(-100%);
 }
 
 .actions,
@@ -469,8 +486,7 @@ position: relative;
 }
 .client-link:hover,
 .client-link:focus {
-	border-color: var(--accent-color);
-	cursor: pointer;
+	border-color: var(--accent-color);	
 }
 
 .client-icon{
@@ -480,7 +496,7 @@ position: relative;
 
 .client-link:hover .client-icon,
 .client-link:focus .client-icon{
-	Fill:var(--accent-color);
+	fill:var(--accent-color);
 }
 
 /*-------------STUDIO-SOC NETWORKS--------------*/
@@ -616,11 +632,10 @@ padding-bottom: 0;
 .portf-link:hover,
 .portf-link:focus {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	cursor: pointer;
 }
 
-.portf-proj:hover .portf-cover-text,
-.portf-proj:focus .portf-cover-text{
+.portf-link:hover .portf-cover-text,
+.portf-link:focus .portf-cover-text{
 	transform: translateY(0%);
 }
 
@@ -642,7 +657,7 @@ padding-bottom: 0;
 	padding: 64px 23px;
 	background: rgba(33, 150, 243, 0.9);
 	height: 100%;
-	transform: translateY(100%);
+	transform: translateY(101%);
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	overflow: auto; /*ASK  LECTOR*/
 }
